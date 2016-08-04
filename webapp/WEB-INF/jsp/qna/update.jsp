@@ -14,6 +14,7 @@
    <div class="col-md-12 col-sm-12 col-lg-10 col-lg-offset-1">
       <div class="panel panel-default content-main">
           <form name="question" method="post" action="/qna/update">
+          	  <input type="hidden" name="_method" value="put" />
           	  <input type="hidden" name="questionId" value="${question.questionId}" />
               <div class="form-group">
                   <label for="title">제목</label>
